@@ -98,10 +98,10 @@
                     <p>I have recieved a <b>Bachelor of Science in Mathematics and Physics</b>, and am currently studying <b>Computer Science at The University of Notre Dame</b>.
                          Currently, my favorite programming language is Javascript.
                     </p>
-                    <h3>Check out what people are saying about me </h3>
+                    <h3>Check out what people are saying about me!</h3>
                     <hr>
                     <div class="header-text btn">
-                        <h1><span id="head-title"></span></h1>
+                        <h1><span id="people-say"></span></h1>
                     </div>
                     <a href="#services" class="down-btn page-scroll">
                         <span class="fa fa-angle-down"></span>
@@ -392,6 +392,16 @@
           $("#head-title").typed({
             strings: ["JavaScript^1000", "Python^1000" ,"Bash Scripting^1000", "C/C++^1000"],
             typeSpeed: 100,
+            loop: true,
+            startDelay: 100
+          });
+      });
+      $(function(){
+          $("#people-say").typed({
+            strings: ["Visionary and driven innovator with experience founding, delivering, and selling two technology startups.^1000",
+             "Known for excellent customer service and development skills – able to independently take user specifications, and produce well-researched and responsive solutions.^1000", 
+             "Technical and research background offering three years of research and internship experience in identifying and implementing software solutions with a track record of real-world deployment and use.^1000"],
+            typeSpeed: 200,
             loop: true,
             startDelay: 100
           });
