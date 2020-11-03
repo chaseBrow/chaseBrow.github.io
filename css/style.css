@@ -266,7 +266,7 @@ a.down-btn span.fa.fa-angle-down {
 	border-color: #F9A826;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	cursor: pointer;
+	/* cursor: pointer; */
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
